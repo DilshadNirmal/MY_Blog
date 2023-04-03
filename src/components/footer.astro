@@ -1,8 +1,18 @@
 ---
 const platform = "github";
 const username = "DilshadNirmal";
+import Social from "./social.astro";
 ---
 
+<style>
+    footer{
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+
 <footer>
-    <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
-  </footer>
+    <Social platform = "linkedin" username = "/in/dilshad-nirmal-r-645785250"/>
+    <Social platform = "github" username = "DilshadNirmal"/>
+</footer>
