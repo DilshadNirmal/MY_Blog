@@ -1,4 +1,5 @@
 ---
+const pageTitle = "Home Page";
 ---
 
 <html lang="en">
@@ -7,14 +8,14 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<a href="/">Home</a>
         <a href="/about">About</a>
 		<a href="/blog/">Blog</a>
 		
-		<h1>Astro</h1>
-		<h5>my first project on Astro</h5>
+		<h1>{pageTitle}</h1>
+		<p>In this blog you are going to see how i am working towards my journey on completing an intorductory lesson like program created by Astro community on how to use their astro framework.</p>
 	</body>
 </html>
