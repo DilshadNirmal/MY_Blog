@@ -1,16 +1,16 @@
 ---
+layout: ../../layout/markdownpostlayout.astro
 title: 'My First Blog Post'
 pubDate: 2023-04-03
 description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+author: 'Dilshad Nirmal'
 image:
-    url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 
+    url: 'https://res.cloudinary.com/practicaldev/image/fetch/s--9IAN59Bg--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/snrq7l81sqq76avnnpnk.jpeg' 
     alt: 'The Astro logo with the word One.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
+<!-- # My First Blog Post -->
 
-Published on: 2023-04-03
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
