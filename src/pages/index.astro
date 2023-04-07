@@ -1,18 +1,15 @@
 ---
 import '../styles/global.css';
 import Baselayout from '../layout/baselayout.astro';
-
+import Greeting from '../components/Greeting';
 const pageTitle = "Home Page";
 ---
 
 <Baselayout pageTitle = {pageTitle}>
-	<style>
-		#quote{
-			color: chocolate;
-		}
-	</style>
-
+	<h2>my awesome blog</h2>
+	
+	<Greeting client:load messages={["vanakkam da mapla", "dei epdi iruka", "hola amigo", "Hi", "Hello", "Howdy", "Hey there"]}/>
 	<p>In this blog you are going to see how i am working towards my journey on completing an introductory lesson like program created by Astro community on how to use their astro framework.<br>
 	On 03-04-2023, i got struck in creating a hamburger menu and i totally lost my mind creating it, but it all a part in learning new things. <br>
-	<span id="quote">finally i learnt that, instead of talking stuffs, doing stuff makes great effort...</span> </p>
+	finally i learnt that, instead of talking stuffs, doing stuff makes great effort...</p>
 </Baselayout>
